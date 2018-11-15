@@ -23,7 +23,7 @@ public class URLUtil {
                 sb.append(line);
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            //e.printStackTrace();
         }
 
         return sb.toString();
