@@ -104,6 +104,9 @@ public class App
         //add request header
         con.setRequestProperty("User-Agent", "Mozilla/5.0");
 
+        System.out.println(con);
+        System.out.println(con.getResponseMessage());
+
         int responseCode = con.getResponseCode();
         System.out.println("\nSending 'GET' request to URL : " + url);
         System.out.println("Response Code : " + responseCode);
